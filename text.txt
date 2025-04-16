@@ -1,0 +1,42 @@
+
+ .section-center {
+     width: 90vw;
+     margin: 0 auto;
+     max-width: 1170px;
+     display: grid;
+     gap: 3rem 2rem;
+     justify-items: center;
+ }
+ 
+ .menu-item {
+     display: grid;
+     gap: 1rem 2rem;
+     max-width: 25rem;
+ }
+ 
+ .photo {
+     object-fit: cover;
+     height: 200px;
+     width: 150px;
+     border: 0.2rem solid #dfe5ea;
+     border-radius: 0.5rem;
+ }
+ 
+ .item-name header {
+     display: flex;
+     justify-content: space-between;
+     border-bottom: 0.5px dotted hsl(210, 22%, 49%);
+ }
+ 
+ .item-name h4 {
+     margin-bottom: 0.5rem;
+ }
+ 
+ .price {
+     color: hsl(210, 22%, 49%);
+ }
+ 
+ .item-desc {
+     margin-bottom: 0;
+     padding-top: 1rem;
+ }
